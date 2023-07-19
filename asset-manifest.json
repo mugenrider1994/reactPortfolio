@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.a04f9cf9.css",
+    "main.js": "/reactPortfolio/static/js/main.b3e91100.js",
+    "static/media/motorcycle.jpg": "/reactPortfolio/static/media/motorcycle.066133632b309b2d642a.jpg",
+    "index.html": "/reactPortfolio/index.html",
+    "main.a04f9cf9.css.map": "/reactPortfolio/static/css/main.a04f9cf9.css.map",
+    "main.b3e91100.js.map": "/reactPortfolio/static/js/main.b3e91100.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04f9cf9.css",
+    "static/js/main.b3e91100.js"
+  ]
+}
