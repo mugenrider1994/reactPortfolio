@@ -15,10 +15,10 @@ function App() {
   return (
     <div>
       <Header currentSection={currentSection} handleNavigation={handleNavigation} />
-      {currentSection === 'AboutMe' && <AboutMe />}
-      {currentSection === 'Portfolio' && <Portfolio />}
-      {currentSection === 'Contact' && <Contact />}
-      {currentSection === 'Resume' && <Resume />}
+      {currentSection === 'about' && <AboutMe />}
+      {currentSection === 'portfolio' && <Portfolio />}
+      {currentSection === 'contact' && <Contact />}
+      {currentSection === 'resume' && <Resume />}
     </div>
   );
 }
