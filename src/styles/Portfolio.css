@@ -1,0 +1,49 @@
+/* AboutMe.css */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: #0C0032;
+    color: #FFFFFF;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .bio {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    margin-top: 1rem;
+  }
+
+  /* AboutMe */
+  .bio-container {
+    background-color: #190061;
+    color: #FFFFFF;
+    
+  }
+  
+  /* Portfolio.css */
+  .project-list {
+    background-color: #240090;
+    color: #FFFFFF;
+    
+  }
+  
+  /* Contact.css */
+  .contact-form {
+    background-color: #3500D3;
+    color: #FFFFFF;
+    
+  }
+  
+  /* Resume.css */
+  .resume-container {
+    background-color: #282828;
+    color: #FFFFFF;
+    
+  }
