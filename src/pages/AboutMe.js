@@ -1,6 +1,6 @@
 import React from 'react';
 import avatarImage from '../assets/motorcycle.jpg';
-import '../styles/Portfolio.css'; // Import your custom CSS file for styling
+import '../styles/App.css';
 
 function AboutMe() {
   return (
