@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
-import '../styles/Portfolio.css'; 
+import '../styles/App.css';
 
 
 function Portfolio() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import '../styles/Portfolio.css';
+import '../styles/App.css';
 
 function Resume() {
   const proficiencies = ['HTML', 'CSS', 'JavaScript', 'React'];
