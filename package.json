@@ -1,8 +1,8 @@
 {
-  "name": "react20",
+  "name": "reactPortfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "portfolio",
+  "description": "reactPortfolio",
   "main": "index.js",
   "homepage": "https://mugenrider1994.github.io/reactPortfolio/",
   "dependencies": {
