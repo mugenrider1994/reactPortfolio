@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Resume from './Resume'
-
+import Navigation from '../components/Navigation';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentSection={currentPage} handleNavigation={handleNavigation} />
       <div>Eggs</div>
-      
+      <Navigation currentSection={currentPage} handleNavigation={handleNavigation} />
       {renderPage()}
       <Footer />
     </div>
