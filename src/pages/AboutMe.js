@@ -2,6 +2,7 @@ import React from 'react';
 import avatarImage from '../assets/motorcycle.jpg';
 import '../styles/App.css';
 
+
 function AboutMe() {
   return (
     <div>

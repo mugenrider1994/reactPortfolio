@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation({ currentSection, handleNavigation }) {
   const navigationTitles = [
-    { id: 'about', title: 'About Me' },
+    { id: 'about', title: 'AboutMe' },
     { id: 'portfolio', title: 'Portfolio' },
     { id: 'contact', title: 'Contact' },
     { id: 'resume', title: 'Resume' },
