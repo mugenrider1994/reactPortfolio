@@ -4,7 +4,7 @@
   "private": true,
   "description": "portfolio",
   "main": "index.js",
-  "homepage": "https://mugenrider1994.github.io/reactPortfolio",
+  "homepage": "https://mugenrider1994.github.io/reactPortfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
