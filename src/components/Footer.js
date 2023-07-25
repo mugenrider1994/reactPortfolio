@@ -8,7 +8,7 @@ function Footer() {
           GitHub
         </a>
         <br></br>
-        <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/megan-glorioso-751434275" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
         {/* Add additional links to other platforms */}
