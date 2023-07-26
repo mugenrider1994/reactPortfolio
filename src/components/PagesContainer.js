@@ -7,32 +7,32 @@ import Portfolio from '../pages/Portfolio';
 import Resume from '../pages/Resume'
 
 
-export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('AboutMe');
+const PortfolioContainer = () => {
+    // State variable used to update current page, default set to aabout me page
+      const [currentPage, setCurrentPage] = useState('AboutMe')
+  
+      const renderPage = () => {
+          switch(currentPage) {
+            case 'AboutMe':
+              return <AboutMe />;
+            case 'Portfolio':
+              return <Portfolio />;
+            case 'Contact':
+              return <Contact />;
+            case 'Resume':
+              return <Resume />;
+            default:
+              return <AboutMe />;
+          }
+        };
+  
+      return (
+          <div>
+              <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+              {renderPage()}
+              <Footer />
+          </div>);
+          
+      }
 
-    const renderPage = () => {
-        if (currentPage === 'Contact') {
-            return <Contact />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        if (currentPage === 'AboutMe') {
-            return <AboutMe />;
-        }
-        if (currentPage === 'Portfolio') {
-            return <Portfolio />;
-        }
-    };
-
-    return (
-        <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <div>Eggs</div>
-      {renderPage()}
-      <Footer />
-    </div>
-    );
-    
-}
+export default PortfolioContainer;
