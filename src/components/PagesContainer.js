@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import AboutMe from './AboutMe';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Resume from './Resume'
-import Navigation from '../components/Navigation';
+import Header from './Header';
+import Footer from './Footer';
+import AboutMe from '../pages/AboutMe';
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume'
+
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -25,17 +25,14 @@ export default function PortfolioContainer() {
         }
     };
 
-    const handleNavigation = (page) => setCurrentPage(page);
     return (
         <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <Header currentSection={currentPage} handleNavigation={handleNavigation} />
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div>Eggs</div>
-      <Navigation currentSection={currentPage} handleNavigation={handleNavigation} />
       {renderPage()}
       <Footer />
     </div>
     );
     
 }
-

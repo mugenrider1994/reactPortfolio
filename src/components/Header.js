@@ -1,13 +1,13 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-function Header({ currentSection, handleNavigation }) {
+function Header({ currentPage, setCurrentPage }) {
   const developerName = 'Megan Glorioso'; // Replace with the actual developer's name
 
   return (
     <header>
       <h1>{developerName}</h1>
-      <Navigation currentSection={currentSection} handleNavigation={handleNavigation} />
+      <Navigation currentPage={ currentPage } setCurrentPage={ setCurrentPage} />
     </header>
   );
 }

@@ -2,8 +2,6 @@
   "name": "reactPortfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "reactPortfolio",
-  "main": "index.js",
   "homepage": "https://mugenrider1994.github.io/reactPortfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -45,7 +43,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
   }
 }

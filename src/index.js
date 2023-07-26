@@ -1,10 +1,6 @@
-// index.js
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Use createRoot from 'react-dom/client' instead of 'react-dom'
-
-
-// Use createRoot to render the App component
-createRoot(document.getElementById('root')).render(<App />);
+ReactDOM.render(<App />, document.getElementById('root'));

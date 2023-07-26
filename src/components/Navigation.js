@@ -1,28 +1,46 @@
 import React from 'react';
 
-function Navigation({ currentSection, handleNavigation }) {
-  const navigationTitles = [
-    { id: 'about', title: 'AboutMe' },
-    { id: 'portfolio', title: 'Portfolio' },
-    { id: 'contact', title: 'Contact' },
-    { id: 'resume', title: 'Resume' },
-  ];
+function Navigation({ currentPage, setCurrentPage }) {
 
   return (
-    <nav>
-      <ul>
-        {navigationTitles.map((item) => (
-          <li key={item.id}>
-            <button
-              className={currentSection === item.id ? 'active' : ''}
-              onClick={() => handleNavigation(item.id)}
-            >
-              {item.title}
-            </button>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#AboutMe"
+          onClick={() => setCurrentPage('AboutMe')}
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Portfolio"
+          onClick={() => setCurrentPage('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Contact"
+          onClick={() => setCurrentPage('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Resume"
+          onClick={() => setCurrentPage('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
   );
 }
 

@@ -6,18 +6,28 @@ import '../styles/App.css';
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1',
-      image: 'project1.jpg',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/username/project1',
+      title: 'LinkedUp',
+      image: 'LinkedUp.jpg',
+      deployedLink: 'https://github.com/dapatel4092/LinkedUp-',
+      githubLink: 'https://agile-ridge-91799-160d7345b56c.herokuapp.com/',
     },
     {
-      title: 'Project 2',
-      image: 'project2.jpg',
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/username/project2',
+      title: 'SocialNetworkAPI',
+      image: 'SocialNetworkAPI.jpg',
+      githubLink: 'https://github.com/mugenrider1994/nosql18',
     },
-    // Add more project objects as needed
+    {
+      title: 'readme-generator1',
+      image: 'logo512.png',
+      githubLink: 'https://github.com/mugenrider1994/readme-generator1',
+    },
+    {
+      title: 'OnlyRecipes',
+      image: 'OnlyRecipesScreenshot.png',
+      deployedLink: 'https://agile-ridge-91799-160d7345b56c.herokuapp.com/',
+      githubLink: 'https://github.com/MarkellDrake/OnlyRecipes',
+    },
+    
   ];
 
   return (
