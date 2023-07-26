@@ -1,6 +1,7 @@
 import React from 'react';
+import '../styles/App.css'
 
-function Navigation({ currentPage, setCurrentPage }) {
+function Nav({ currentPage, setCurrentPage }) {
 
   return (
     <ul className="nav nav-tabs">
@@ -44,4 +45,4 @@ function Navigation({ currentPage, setCurrentPage }) {
   );
 }
 
-export default Navigation;
+export default Nav;
