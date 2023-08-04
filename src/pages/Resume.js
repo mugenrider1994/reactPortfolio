@@ -10,7 +10,7 @@ function Resume() {
       <Header />
       <h2>Resume</h2>
       <div>
-        <a href="/resume.pdf" download>
+        <a href="src\assets\megan-glorioso-resume.pdf" download>
           Download Resume
         </a>
       </div>
