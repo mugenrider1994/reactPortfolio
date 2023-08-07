@@ -2,8 +2,12 @@ import React from 'react';
 import '../styles/App.css'
 
 function Nav({ currentPage, setCurrentPage }) {
+  const navStyle = {
+    backgroundColor: 'black',
+  }
 
   return (
+    <div style={navStyle}>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -42,6 +46,7 @@ function Nav({ currentPage, setCurrentPage }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

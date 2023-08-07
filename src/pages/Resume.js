@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import '../styles/App.css';
 
 function Resume() {
@@ -7,10 +6,9 @@ function Resume() {
 
   return (
     <div>
-      <Header />
       <h2>Resume</h2>
       <div>
-        <a href="src\assets\megan-glorioso-resume.pdf" download>
+        <a href="/public/megan-glorioso-resume.pdf" download>
           Download Resume
         </a>
       </div>

@@ -25,14 +25,26 @@ const PortfolioContainer = () => {
               return <AboutMe />;
           }
         };
+
+        const PortfolioContainerStyle = {
+          backgroundColor: 'black',
+          color: 'black',
+        }
+
+        const wrapperStyle = {
+          border: '2px solid #424952', // Border style and color
+          backgroundColor: '#424952', // Background color for the border
+        };
   
       return (
-          <div>
+        <div style={wrapperStyle}>
+          <div style={PortfolioContainerStyle}>
               <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
               {renderPage()}
               <Footer />
-          </div>);
-          
-      }
+          </div>
+          </div>
+      );
+    }
 
 export default PortfolioContainer;

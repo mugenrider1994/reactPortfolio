@@ -3,17 +3,24 @@ import Project from '../components/Project';
 import '../styles/App.css';
 
 
+
 function Portfolio() {
+  const portfolioStyle = {
+    backgroundColor: 'black',
+    color: '#FFFFFF',
+    padding: '2rem',
+  }
+  
   const projects = [
     {
       title: 'LinkedUp',
-      image: 'LinkedUp.jpg',
+      image: 'LinkedUp.png',
       deployedLink: 'https://github.com/dapatel4092/LinkedUp-',
       githubLink: 'https://agile-ridge-91799-160d7345b56c.herokuapp.com/',
     },
     {
       title: 'SocialNetworkAPI',
-      image: 'SocialNetworkAPI.jpg',
+      image: 'SocialNetworkAPI.png',
       githubLink: 'https://github.com/mugenrider1994/nosql18',
     },
     {
@@ -31,6 +38,8 @@ function Portfolio() {
   ];
 
   return (
+    
+    <div style={portfolioStyle}>
     <div className="portfolio-container">
       <h2>Portfolio</h2>
       <div className="project-list">
@@ -44,6 +53,7 @@ function Portfolio() {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 }
