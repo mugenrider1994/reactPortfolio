@@ -29,10 +29,14 @@ const PortfolioContainer = () => {
         const PortfolioContainerStyle = {
           backgroundColor: 'black',
           color: 'black',
+          borderRadius: '30px', // Adjust the value to control the curvature of the content
+          padding: '10px', // Add padding for spacing within the curved border
+          
+          
         }
 
         const wrapperStyle = {
-          border: '2px solid #424952', // Border style and color
+          border: '100px solid #424952', // Border style and color
           backgroundColor: '#424952', // Background color for the border
         };
   
