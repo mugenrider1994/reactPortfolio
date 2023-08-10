@@ -1,10 +1,10 @@
 /* AboutMe.css */
 .section-title {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
     background-color: black;
     color: #FFFFFF;
+    padding: 20px;
   }
   
   .avatar {
@@ -19,6 +19,7 @@
     line-height: 1.5;
     letter-spacing: 0.02rem;
     margin-top: 1rem;
+    
   }
 
   /* AboutMe */
@@ -31,7 +32,11 @@
   
   /* Portfolio.css */
   .project-list {
-    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black; /* Light gray background */
+    padding: 1rem;
     
   }
   
@@ -39,12 +44,27 @@
   .contact {
     background-color: black;
     color: #FFFFFF;
+    padding-bottom: 2em;
     
+  }
+
+  .contact h2 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+
+  .contact p {
+    margin-bottom: 2em;
+    margin-top: 2em;
   }
 
   .contact-container {
     background-color: black;
     color: #FFFFFF;
+    padding-bottom: 2em;
+    padding-left: 20px;
   }
   
   /* Resume.css */
@@ -56,39 +76,57 @@
 
   .portfolio-container {
     display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Each item is at least 200px wide */
+    grid-gap: 1rem; /* Gap between grid items */
     background-color: black;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
   }
   
   /* Style for individual project items */
   .project {
     background-color: black;
-    border: 1px solid #ddd;
     padding: 1rem;
-    margin-bottom: 1rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 6.375rem;
   }
   
   .project img {
     max-width: 100%;
-    height: auto;
-    padding-bottom: 1rem;
+    max-height: 150px;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    margin-bottom: 2rem;
   }
   
   .project h3 {
-    padding-top: 0;
     font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #007bff; /* Dark text color */
   }
   
   .project a {
-    display: block;
-    padding-top: 0.5rem;
-    color: #00f7ff;
+    color: #007bff;
     text-decoration: none;
+    padding-top: 0.5rem;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    
   }
   
   .project a:hover {
     text-decoration: underline;
+  }
+
+  .project:hover {
+    box-shadow: 0px 4px 6px #007bff;
   }
   
   .pdf-container {

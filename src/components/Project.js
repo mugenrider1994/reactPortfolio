@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/App.css'
+import '../styles/App.css';
 
 function Project({ title, image, deployedLink, githubLink }) {
   return (
@@ -7,8 +7,14 @@ function Project({ title, image, deployedLink, githubLink }) {
       <h3>{title}</h3>
       <img src={image} alt={title} />
       <div className="project-links">
-        <a href={deployedLink} target="_blank" rel="noopener noreferrer">View Application</a>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+        {deployedLink ? (
+          <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+            View App
+          </a>
+        ) : null}
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          <br></br>GitHub Repo
+        </a>
       </div>
     </div>
   );

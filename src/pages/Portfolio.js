@@ -1,36 +1,41 @@
 import React from 'react';
 import Project from '../components/Project';
 import '../styles/App.css';
-
+import LinkedUpImage from '../assets/LinkedUp.png';
+import SocialNetworkAPIImage from '../assets/SocialNetworkAPI.png';
+import ReadmeGeneratorImage from '../assets/logo512.png';
+import OnlyRecipesImage from '../assets/OnlyRecipesScreenshot.png';
 
 
 function Portfolio() {
   const portfolioStyle = {
     backgroundColor: 'black',
-    color: '#FFFFFF',
-    padding: '2rem',
+    color: '#007bff',
+    padding: '1rem',
   }
   
   const projects = [
     {
       title: 'LinkedUp',
-      image: 'LinkedUp.png',
+      image: LinkedUpImage,
       deployedLink: 'https://github.com/dapatel4092/LinkedUp-',
       githubLink: 'https://agile-ridge-91799-160d7345b56c.herokuapp.com/',
     },
     {
       title: 'SocialNetworkAPI',
-      image: 'SocialNetworkAPI.png',
+      image: SocialNetworkAPIImage,
+      deployedLink: false,
       githubLink: 'https://github.com/mugenrider1994/nosql18',
     },
     {
       title: 'readme-generator1',
-      image: 'logo512.png',
+      image: ReadmeGeneratorImage,
+      deployedLink: false,
       githubLink: 'https://github.com/mugenrider1994/readme-generator1',
     },
     {
       title: 'OnlyRecipes',
-      image: 'OnlyRecipesScreenshot.png',
+      image: OnlyRecipesImage,
       deployedLink: 'https://agile-ridge-91799-160d7345b56c.herokuapp.com/',
       githubLink: 'https://github.com/MarkellDrake/OnlyRecipes',
     },
