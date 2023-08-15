@@ -1,41 +1,61 @@
-# React Portfolio
+# Developer Portfolio - React Single-Page Application
 
-## Description
-This portfolio was made using React.
+Welcome to my developer portfolio, showcasing my experience in building single-page applications using React.
 
-User Story
+## User Story
 
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
+As an employer looking for candidates experienced in building single-page applications, I want to view a potential employee's deployed React portfolio of work samples. This will allow me to assess whether they are a suitable candidate for an open position.
 
-Acceptance Criteria
+## Table of Contents
 
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+- [About Me](#about-me)
+- [Portfolio](#portfolio)
+- [Contact](#contact)
+- [Resume](#resume)
 
-## Deployment
-https://mugenrider1994.github.io/reactPortfolio/
+## Getting Started
+
+Visit the deployed portfolio: [View Portfolio](https://mugenrider1994.github.io/reactPortfolio/)
+
+## Features
+
+- Responsive layout with a header, content section, and footer.
+- Navigation titles: About Me, Portfolio, Contact, and Resume.
+- Highlighting of the current section's title in the navigation.
+- Smooth navigation between sections without page reloading.
+
+## Usage
+
+### About Me
+
+In the About Me section, you'll find a recent photo or avatar of the developer along with a short bio.
+
+### Portfolio
+
+The Portfolio section showcases six of the developer's applications, each with a title, a link to the deployed application, and a link to the corresponding GitHub repository.
+
+### Contact
+
+Feel free to reach out using the contact form provided in this section. You'll find fields for a name, email address, and message. Notifications will guide you to fill out the required information correctly.
+
+### Resume
+
+The Resume section contains a link to download the developer's resume and a list of proficiencies.
+
+## Navigation
+
+- The default selected section when loading the portfolio for the first time is About Me.
+- Clicking on a navigation title will display the corresponding section below without reloading the page.
+- The title of the current section in the navigation will be highlighted.
+
+## Contact
+
+Connect with me on various platforms:
+
+- [GitHub](https://github.com/mugenrider1994)
+- [LinkedIn](https://www.linkedin.com/in/your-name)
+
+
+---
+
+Feel free to explore the portfolio and get in touch with me for any inquiries or collaborations. Your feedback is highly appreciated!
