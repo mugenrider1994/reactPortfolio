@@ -74,6 +74,10 @@
     
   }
 
+  .resume-container h3 {
+    text-decoration: underline;
+  }
+
   .portfolio-container {
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Each item is at least 200px wide */
