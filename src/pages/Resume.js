@@ -41,10 +41,10 @@ function Resume() {
       
       <h3>EXPERIENCE</h3>
       <div>
-        <h4>Coding Intern 2022-Present</h4>
-        <p>TaskMaster, Tucson, Arizona</p>
-        <p>Developed a user-friendly application to bring attention to the needs of construction workers</p>
-        <p>Key Accomplishments: Co-developed a user-friendly, intuitive, and secure application from scratch with interactive features to optimize traffic and user experience.</p>
+        <h4>Sales Associate/Color Mixer at Sherwin-Williams February 2023- Current</h4>
+        <p>Sherwin Williams, Tucson, Arizona</p>
+        <p>Provided exceptional customer service by assisting clients in selecting paint colors and products. Mixed and customized paint colors to meet customer specifications with precision.</p>
+        <p>Key Accomplishments: Offered expert advice on paint and coatings due to extensive product knowledge. Contributed to a positive team environment while consistently surpassing sales goals.</p>
       </div>
       
       <div>
