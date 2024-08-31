@@ -70,7 +70,7 @@ function Resume() {
       <h3>EDUCATION</h3>
       <p>Certificate, Full Stack Web Development – University of Arizona, 2023</p>
       <p>Associates of Computer Programming – Mesa Community College, 2021</p>
-      <p>Bachelor of Computer Science – Southern New Hampshire University, 2024</p>
+      <p>Bachelor of Computer Science – Southern New Hampshire University, expected 2025</p>
     </div>
   );
 }
