@@ -8,7 +8,7 @@ function Contact() {
 
   return (
     <div className='contact'>
-      <h2>Megan Glorioso</h2>
+      <h2>Megan Smith</h2>
       <div className='contact-container'>
         <img src={avatarImage} alt="Avatar" className="avatar" />
         <p>If you have any questions, feel free to <a href={`mailto:${decodedEmail}`}>contact me</a>.</p>
