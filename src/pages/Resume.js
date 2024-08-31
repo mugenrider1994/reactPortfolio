@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div className="resume-container">
       <h2>Megan Smith</h2>
-      <p>Phone: 520-609-9471 | Email: meganglorioso2016@gmail.com | Vail, AZ, 85641</p>
+      <p>Phone: 520-609-9471 | Email: meganelysesmith24@gmail.com | Vail, AZ, 85641</p>
       <p>LinkedIn: Megan Smith | LinkedIn | Portfolio: <a href="https://mugenrider1994.github.io/reactPortfolio/">https://mugenrider1994.github.io/reactPortfolio/</a> | GitHub: <a href="https://github.com/mugenrider1994">https://github.com/mugenrider1994</a></p>
       <h3>Front-end Web Developer</h3>
       <p>Resolute front-end web developer with a solid foundation in learning technology and a diverse skill set in various programming languages. Holds a certificate in Full Stack Web Development from the University of Arizona Coding Boot Camp. An innovative, analytical thinker with a passion for creating mobile-first applications. Proficient in translating ideas into fully realized projects, with a keen focus on design and development. Key strengths include creativity, effective teamwork, and the ability to take projects from initial concept to successful execution.</p>
