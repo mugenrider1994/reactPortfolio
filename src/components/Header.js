@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './Navigation';
 
 function Header({ currentPage, setCurrentPage }) {
-  const developerName = 'Megan Glorioso'; // Replace with the actual developer's name
+  const developerName = 'Megan Smith'; // Replace with the actual developer's name
 
   return (
     <header>

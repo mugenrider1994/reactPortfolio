@@ -5,12 +5,11 @@ import '../styles/App.css';
 function Resume() {
   return (
     <div className="resume-container">
-      <h2>Megan Glorioso</h2>
+      <h2>Megan Smith</h2>
       <p>Phone: 520-609-9471 | Email: meganglorioso2016@gmail.com | Vail, AZ, 85641</p>
-      <p>LinkedIn: Megan Glorioso | LinkedIn | Portfolio: <a href="https://mugenrider1994.github.io/reactPortfolio/">https://mugenrider1994.github.io/reactPortfolio/</a> | GitHub: <a href="https://github.com/mugenrider1994">https://github.com/mugenrider1994</a></p>
+      <p>LinkedIn: Megan Smith | LinkedIn | Portfolio: <a href="https://mugenrider1994.github.io/reactPortfolio/">https://mugenrider1994.github.io/reactPortfolio/</a> | GitHub: <a href="https://github.com/mugenrider1994">https://github.com/mugenrider1994</a></p>
       <h3>Front-end Web Developer</h3>
-      <p>Front end web developer leveraging background in with specialized knowledge and critical experience in learning technology including using different computer languages and troubleshooting. Earned a certificate in Full Stack Web Development from the University of Arizona Coding Boot Camp. Innovative problem-solver who is passionate about developing apps with a focus on mobile-first design and development. Strengths in creativity, teamwork, and building projects from ideation to execution.</p>
-      
+      <p>Resolute front-end web developer with a solid foundation in learning technology and a diverse skill set in various programming languages. Holds a certificate in Full Stack Web Development from the University of Arizona Coding Boot Camp. An innovative, analytical thinker with a passion for creating mobile-first applications. Proficient in translating ideas into fully realized projects, with a keen focus on design and development. Key strengths include creativity, effective teamwork, and the ability to take projects from initial concept to successful execution.</p>
       <h3>TECHNICAL SKILLS</h3>
       <p>JavaScript, CSS, HTML, SQL, GitHub, MongoDB, MySQL, React, Node, jQuery, Bootstrap, MERN, Mongoose, Apollo, Express.js, GraphQL, Bulma, Sequelize ORM,</p>
       
