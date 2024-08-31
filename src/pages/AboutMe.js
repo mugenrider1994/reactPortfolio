@@ -11,13 +11,13 @@ function AboutMe() {
   }
   return (
     <div style ={aboutMeStyle}>
-      <h2 className="section-title">Megan Glorioso</h2>
+      <h2 className="section-title">Megan Smith</h2>
       <div className="bio-container">
         <img src={avatarImage} alt="Avatar" className="avatar" />
         <p className="bio">
           Hi, I'm Megan!<br />
           <br />
-          I was born in Las Vegas, Nevada and grew up in Tucson, Arizona. I have a passion for traveling, anime, and video games, which take up most of my time aside from work and school. I have yet to finish Demon Slayer, so no spoilers please! I have a beautiful daughter and fiancé, who make me so happy. I also have two Rottweilers and two tortoises that help complete my family. I currently have an Associates degree in Computer Programming, and I am on track to get my Bachelors of Information Technology in late 2024. I have completed University of Arizona's coding bootcamp in July 2023. I currently work at Sherwin William's part-time, but I am hoping to transition to the tech industry soon. My key skills include computer configuration, troubleshooting, problem solving, punctuality, attention to detail, and having a growth mindset. Having a variety of experiences with coding has come with many benefits. I have learned the basics on:
+          I was born in Las Vegas, Nevada and grew up in Tucson, Arizona. I have a passion for traveling, anime, and video games, which take up most of my time aside from work and school. I have yet to finish Demon Slayer, so no spoilers please! I have a beautiful family, who make me so happy. I also have two Rottweilers and one tortoise that help complete it. I currently have an Associates degree in Computer Programming, and I am on track to get my Bachelors of Information Technology in late 2025. I have completed University of Arizona's coding bootcamp in July 2023. I currently work at Sherwin William's part-time, but I am hoping to transition to the tech industry soon. My key skills include computer configuration, troubleshooting, problem solving, punctuality, attention to detail, and having a growth mindset. Having a variety of experiences with coding has come with many benefits. I have learned the basics on:
           <br />
           <br />
           JavaScript
